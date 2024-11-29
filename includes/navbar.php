@@ -1,4 +1,4 @@
-<nav class="navbar px-4 py-4 w-100">
+<nav class="navbar w-100">
     <div class="container d-flex justify-content-between align-items-center bg-transparent w-100">
         <div class="list d-flex gap-5 align-items-center bg-transparent">
             <a class="bg-transparent" href="#">
