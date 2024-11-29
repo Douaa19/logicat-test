@@ -7,6 +7,20 @@
 
 body {
   font-family: Patronweb, sans-serif;
+  background-color: #f6f7ff !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.1s ease-in-out;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #FCFCFF;
 }
 
 nav .list ul li a {

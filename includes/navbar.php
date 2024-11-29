@@ -1,4 +1,4 @@
-<nav class="navbar container px-4 py-3">
+<nav class="navbar container px-4 py-4">
     <div class="d-flex justify-content-between align-items-center flex-row w-100">
         <div class="container d-flex flex-row justify-content-start align-items-center gap-5">
             <a class="" href="#">
