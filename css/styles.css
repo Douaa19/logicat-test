@@ -1,3 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7ff;
+}
+
 body {
-    background-color: #F6F7FF;
+  font-family: Patronweb, sans-serif;
+  background-color: #f6f7ff !important;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #fcfcff;
+  position: sticky;
+  border-bottom: rgb(221, 221, 221) 0.5px solid;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .list ul li a {
+  color: #02016f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav .list ul li a:hover {
+  color: #5c6fff;
+}
+
+svg {
+  background: transparent;
+}
+
+.navbar button {
+  position: relative;
+  background-color: #5c6fff;
+  color: white;
+  width: 8rem;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  z-index: 0;
+  transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+.navbar button::before,
+section .header button::before {
+  content: "";
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  background-color: #5c6fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  z-index: -6;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.navbar button:hover,
+section .header button:hover {
+  transform: translate(0.1rem, -0.1rem);
+  color: white;
+  background-color: #02016f;
+  z-index: 1000;
+}
+
+.navbar button:hover::before,
+.navbar button:hover::after,
+section .header button:hover::before,
+section .header button:hover::after {
+  opacity: 1;
+  /* transform: scale(1); */
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+section .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+section .header h1 {
+  z-index: 1;
+  color: #02016f;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2em;
+  position: relative;
+}
+
+section .header button {
+  width: fit-content;
+  position: relative;
+  background-color: #5c6fff;
+  color: white;
+  width: auto;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  z-index: 0;
+  margin-bottom: 8px;
+  margin-right: 24px;
+  transition: transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
+  padding: 16px 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 56px;
+  line-height: 1.2em;
 }
