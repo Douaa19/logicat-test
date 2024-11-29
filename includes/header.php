@@ -45,13 +45,15 @@
             <div class="text">
                 <p>More than 48,000 users in over 19,000 companies run on Sellsy!</p>
             </div>
-            <div class="clients-logo">
-                <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/6262aa4649702360da8d66ac_heaven-logo.webp" loading="lazy" width="201" alt="Logo Heaven" class="client-logo">
-                <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/640efa29766e12ed9cf3b42f_mercato-emploi.webp" loading="lazy" width="201" alt="Logo Mercato de l'emploi" class="client-logo">
-                <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/6331715c728b1db056168efa_pieddebiche-logo.webp" loading="lazy" width="202" alt="Logo Weezevent" class="client-logo">
-                <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/640efa2944d82eefb7c50727_qwetch.webp" loading="lazy" width="201" alt="Logo Qwetch" class="client-logo">
-                <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/61321f7716cf31d8bccf9e90_logo-weezevent.webp" loading="lazy" width="201" alt="Logo Hivency" class="client-logo">
-                <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/62c5ab95497b5a44e9b39e7b_truffautpro.webp" loading="lazy" width="201" alt="Logo Gallia" class="client-logo">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="clients-logo">
+                    <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/6262aa4649702360da8d66ac_heaven-logo.webp" loading="lazy" width="201" alt="Logo Heaven" class="client-logo">
+                    <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/640efa29766e12ed9cf3b42f_mercato-emploi.webp" loading="lazy" width="201" alt="Logo Mercato de l'emploi" class="client-logo">
+                    <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/6331715c728b1db056168efa_pieddebiche-logo.webp" loading="lazy" width="202" alt="Logo Weezevent" class="client-logo">
+                    <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/640efa2944d82eefb7c50727_qwetch.webp" loading="lazy" width="201" alt="Logo Qwetch" class="client-logo">
+                    <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/61321f7716cf31d8bccf9e90_logo-weezevent.webp" loading="lazy" width="201" alt="Logo Hivency" class="client-logo">
+                    <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/62c5ab95497b5a44e9b39e7b_truffautpro.webp" loading="lazy" width="201" alt="Logo Gallia" class="client-logo">
+                </div>
             </div>
 
         </div>
