@@ -22,13 +22,14 @@ body {
 .navbar.scrolled {
   background-color: #fcfcff;
   position: sticky;
-  border-bottom: rgb(221, 221, 221) 0.5px solid;
+  border-bottom: rgb(235, 235, 235) 0.5px solid;
 }
 
 .navbar .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 3rem;
 }
 
 nav .list ul li a {
@@ -89,7 +90,6 @@ section .header button:hover {
 section .header button:hover::before,
 section .header button:hover::after {
   opacity: 1;
-  /* transform: scale(1); */
 }
 
 section {
@@ -105,6 +105,7 @@ section .header {
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  padding: 0 3rem;
 }
 
 section .header h1 {
@@ -117,6 +118,10 @@ section .header h1 {
   font-weight: 600;
   line-height: 1.2em;
   position: relative;
+}
+
+section .header .button {
+  margin-top: 32px;
 }
 
 section .header button {
@@ -142,4 +147,89 @@ section .header button {
   font-weight: 500;
   height: 56px;
   line-height: 1.2em;
+}
+
+section .header p {
+  color: #02016f;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 0 8px;
+  line-height: 1.4em;
+  width: 70%;
+}
+
+section .header .rating {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  padding: 0 0 8px;
+  width: 70%;
+}
+
+section .header .rating p {
+  color: #02016f;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0 8px;
+  line-height: 1.4em;
+  width: 70%;
+  opacity: 0.4;
+}
+
+section .header .rating a {
+  text-decoration: none;
+  color: #02016f;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 0 0 8px;
+  line-height: 1.4em;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.6rem;
+}
+
+section .header .rating a .rating-number {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.rating .star-rating {
+  display: inline-flex;
+  gap: 0.2rem;
+  font-size: 2rem;
+}
+
+.rating .star-rating .star {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-color: #ccc;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.rating .star-rating .star.full {
+  background-color: yellow;
+}
+
+.rating .star-rating .star.half {
+  background: linear-gradient(to right, yellow 50%, #ccc 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }

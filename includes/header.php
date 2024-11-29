@@ -12,16 +12,35 @@
 </head>
 <body class="w-100">
     <?php include 'includes/navbar.php' ?>
-    <section class="container px-4">
-        <div class="header bg-transparent d-flex justify-content-between align-items-center py-10">
-            <div>
-                <h1>Simplify your sales and financial management</h1>
-                <p>Sellsy, the only solution that lets you manage your marketing, sales, invoicing and cash flow all in one place.</p>
-                <span class="rating"><span style="font-size:300%;color:yellow;">★★★★★</span>4,4/5</span>
+    <section class="container px-10">
+        <div class="d-flex justify-content-between align-items-center gap-5">
+            <div class="header bg-transparent py-10 hero-grid-left w-100">
+                <div>
+                    <h1>Simplify your sales and financial management</h1>
+                    <p>Sellsy, the only solution that lets you manage your marketing, sales, invoicing and cash flow all in one place.</p>
+                    <div class="rating">
+                      <a href="https://fr.trustpilot.com/review/sellsy.com" class="rating-link" aria-label="Read our reviews on Trustpilot">
+                        <div class="star-rating">
+                          <span class="star full"></span>
+                          <span class="star full"></span>
+                          <span class="star full"></span>
+                          <span class="star full"></span>
+                          <span class="star half"></span>
+                        </div>
+                        <span class="rating-number">4.4/5</span>
+                      </a>
+                      <p>
+                        Our customers recommend us with over 220 reviews on Trustpilot, Capterra, GetApp, SoftwareAdvice, Appvizer & Google.
+                      </p>
+                    </div>
+                </div>
+                <div class="bg-transparent button">
+                    <button type="button" class="btn text-align-center fs-18 fw-bold">Get started</button>
+                </div>
             </div>
-            <div class="bg-transparent">
-                <button type="button" class="btn text-align-center fs-18 fw-bold">Get started</button>
+            <div class="hero-img bg-transparent d-flex justify-content-center align-items-center mx-5 w-100">
+                <img src="./images/img.png" alt="hero" class="">
             </div>
         </div>
-        <div class="bg-transparent d-flex flex-direction-column align-items-center justify-content-center"></div>
+        <div></div>
     </section>
