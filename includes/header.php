@@ -12,3 +12,16 @@
 </head>
 <body class="w-100">
     <?php include 'includes/navbar.php' ?>
+    <section class="container px-4">
+        <div class="header bg-transparent d-flex justify-content-between align-items-center py-10">
+            <div>
+                <h1>Simplify your sales and financial management</h1>
+                <p>Sellsy, the only solution that lets you manage your marketing, sales, invoicing and cash flow all in one place.</p>
+                <span class="rating"><span style="font-size:300%;color:yellow;">★★★★★</span>4,4/5</span>
+            </div>
+            <div class="bg-transparent">
+                <button type="button" class="btn text-align-center fs-18 fw-bold">Get started</button>
+            </div>
+        </div>
+        <div class="bg-transparent d-flex flex-direction-column align-items-center justify-content-center"></div>
+    </section>

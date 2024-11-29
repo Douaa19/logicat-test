@@ -61,29 +61,85 @@ svg {
   transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 
-.navbar button::before {
+.navbar button::before,
+section .header button::before {
   content: "";
   position: absolute;
-  bottom: -0.2rem;
-  left: -0.2rem;
-  background-color: #02016f;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  background-color: #5c6fff;
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
   z-index: -6;
   opacity: 0;
-  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
 }
 
-.navbar button:hover {
+.navbar button:hover,
+section .header button:hover {
   transform: translate(0.1rem, -0.1rem);
   color: white;
-  background-color: #5c6fff;
+  background-color: #02016f;
   z-index: 1000;
 }
 
 .navbar button:hover::before,
-.navbar button:hover::after {
+.navbar button:hover::after,
+section .header button:hover::before,
+section .header button:hover::after {
   opacity: 1;
-  transform: scale(1);
+  /* transform: scale(1); */
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+section .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+section .header h1 {
+  z-index: 1;
+  color: #02016f;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2em;
+  position: relative;
+}
+
+section .header button {
+  width: fit-content;
+  position: relative;
+  background-color: #5c6fff;
+  color: white;
+  width: auto;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  z-index: 0;
+  margin-bottom: 8px;
+  margin-right: 24px;
+  transition: transform 0.1s ease-in-out, background-color 0.2s ease-in-out;
+  padding: 16px 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  height: 56px;
+  line-height: 1.2em;
 }
