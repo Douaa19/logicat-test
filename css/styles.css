@@ -240,3 +240,29 @@ section .header .rating .star-rating .star.full {
 section .header .rating .star-rating .star.half {
   background: linear-gradient(to right, #ffe252 60%, #f6f7ff 40%);
 }
+
+section .clients {
+  margin-top: 80px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+section .clients p {
+  color: #02016f;
+  margin-top: 8px;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.33em;
+  display: block;
+  position: relative;
+}
+
+section .clients .clients-logo {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  width: 100%;
+}
