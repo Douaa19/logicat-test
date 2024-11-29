@@ -15,12 +15,20 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   z-index: 1000;
 }
 
 .navbar.scrolled {
-  background-color: #FCFCFF;
+  background-color: #fcfcff;
+  position: sticky;
+  border-bottom: rgb(221, 221, 221) 0.5px solid;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav .list ul li a {
@@ -49,7 +57,7 @@ svg {
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
-  z-index: 2;
+  z-index: 0;
   transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 
@@ -58,11 +66,11 @@ svg {
   position: absolute;
   bottom: -0.2rem;
   left: -0.2rem;
-  background-color: black;
+  background-color: #02016f;
   height: 100%;
   width: 100%;
   border-radius: 0.5rem;
-  z-index: -2;
+  z-index: -6;
   opacity: 0;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
@@ -71,6 +79,7 @@ svg {
   transform: translate(0.1rem, -0.1rem);
   color: white;
   background-color: #5c6fff;
+  z-index: 1000;
 }
 
 .navbar button:hover::before,
