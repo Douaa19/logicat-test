@@ -1,3 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f7ff;
+}
+
 body {
-    background-color: #F6F7FF;
+  font-family: Patronweb, sans-serif;
+}
+
+nav .list ul li a {
+  color: #02016f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav .list ul li a:hover {
+  color: #5c6fff;
+}
+
+svg {
+  background: transparent;
+}
+
+.navbar button {
+  position: relative;
+  background-color: #5c6fff;
+  color: white;
+  width: 8rem;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out;
+}
+
+.navbar button::before {
+  content: "";
+  position: absolute;
+  bottom: -0.2rem;
+  left: -0.2rem;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  z-index: -2;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.navbar button:hover {
+  transform: translate(0.1rem, -0.1rem);
+  color: white;
+  background-color: #5c6fff;
+}
+
+.navbar button:hover::before,
+.navbar button:hover::after {
+  opacity: 1;
+  transform: scale(1);
 }
