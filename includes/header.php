@@ -21,11 +21,11 @@
                     <div class="rating">
                         <a href="https://fr.trustpilot.com/review/sellsy.com" class="rating-link" aria-label="Read our reviews on Trustpilot">
                         <div class="star-rating">
-                          <span class="star full"></span>
-                          <span class="star full"></span>
-                          <span class="star full"></span>
-                          <span class="star full"></span>
-                          <span class="star half"></span>
+                            <span class="star full"></span>
+                            <span class="star full"></span>
+                            <span class="star full"></span>
+                            <span class="star full"></span>
+                            <span class="star half"></span>
                         </div>
                         <span class="rating-number">4.4/5</span>
                         </a>

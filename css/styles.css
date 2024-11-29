@@ -206,17 +206,17 @@ section .header .rating a .rating-number {
   font-size: 16px;
 }
 
-.rating .star-rating {
+section .header .rating .star-rating {
   display: inline-flex;
   gap: 0.2rem;
   font-size: 2rem;
 }
 
-.rating .star-rating .star {
+section .header .rating .star-rating .star {
   display: inline-block;
-  width: 1em;
-  height: 1em;
-  background-color: #ccc;
+  width: 0.7em;
+  height: 0.7em;
+  background-color: transparent;
   clip-path: polygon(
     50% 0%,
     61% 35%,
@@ -233,12 +233,10 @@ section .header .rating a .rating-number {
   -webkit-background-clip: text;
 }
 
-.rating .star-rating .star.full {
-  background-color: yellow;
+section .header .rating .star-rating .star.full {
+  background: #ffe252;
 }
 
-.rating .star-rating .star.half {
-  background: linear-gradient(to right, yellow 50%, #ccc 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
+section .header .rating .star-rating .star.half {
+  background: linear-gradient(to right, #ffe252 60%, #f6f7ff 40%);
 }
