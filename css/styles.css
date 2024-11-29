@@ -264,5 +264,12 @@ section .clients .clients-logo {
   justify-content: center;
   align-items: center;
   margin-top: 32px;
-  width: 100%;
+  width: 93%;
+}
+
+section .clients .clients-logo img {
+  object-fit: fill;
+  height: auto;
+  display: inline-block;
+  max-width: 100%;
 }
