@@ -1,3 +1,16 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animated-svg {
+  animation: fadeIn 2s ease-in-out;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -273,6 +286,308 @@ section .clients .clients-logo img {
   display: inline-block;
   max-width: 100%;
 }
+
+/* MAIN */
+/* HOMEPAGE */
+main .section-homepage {
+  background: transparent;
+  padding: 96px 1.5rem;
+  position: relative;
+}
+
+main .section-homepage .container {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: static;
+}
+
+main .section-homepage .container .centered-content {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+
+main .section-homepage .container .centered-content h2 {
+  margin-top: 0 0 16px 0;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  position: relative;
+  color: #02016f;
+  display: grid;
+}
+
+main .section-homepage .layout {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: static;
+}
+
+main .section-homepage .layout .layout-grid {
+  grid-column-gap: 32px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+main .section-homepage .layout .layout-grid #illustration {
+  color: #02016f;
+  font-family: Patronweb, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  width: 480px;
+  box-sizing: border-box;
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  object-fit: contain;
+  outline-offset: 0px;
+  border-radius: 12px;
+  outline: 3px #02016f;
+  box-shadow: 0 0 20px #0e08271a;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+main .section-homepage .layout .layout-grid .reverse {
+  text-align: end;
+}
+
+main .section-homepage .layout .text-wrapper {
+  color: #02016f;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .homepage-product-name {
+  color: #2a2a79;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  flex-direction: row;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .homepage-product-name
+  .lottie-picto-produit
+  img {
+  width: 40px;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .homepage-product-name
+  .suite-home-card-product {
+  -webkit-text-size-adjust: 100%;
+  font-family: Patronweb, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background-color: #fff0;
+  border-radius: 8px;
+  align-self: center;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 600;
+  color: #2a2a79;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper svg {
+  width: 100%;
+  height: 100%;
+  transform: translate(0px, 0px, 0px);
+  content-visibility: visible;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper h2 {
+  margin: 0 0 16px 0;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.2em;
+  position: relative;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  align-self: flex-start;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.44em;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper .check-list-wrapper {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  margin-top: 8px;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .check-list-wrapper
+  .check-list {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .check-list-wrapper
+  ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .check-list-wrapper
+  .check-list
+  .check-list-item {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  align-items: flex-start;
+  margin: 10px 0 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .check-list-wrapper
+  .check-list
+  img {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  vertical-align: middle;
+  max-width: 100%;
+  object-fit: fill;
+  height: auto;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+main
+  .section-homepage
+  .layout
+  .layout-grid
+  .text-wrapper
+  .check-list-wrapper
+  .check-list
+  .check-list-item
+  .check-list-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper .button {
+  cursor: pointer;
+  z-index: 1;
+  background-color: #5c6fff;
+  color: white;
+  border-radius: 8px;
+  height: 56px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 16px 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  text-transform: capitalize;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper .button::before {
+  content: "";
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  background-color: #5c6fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  z-index: -6;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper .button:hover {
+  transform: translate(0.1rem, -0.1rem);
+  color: white;
+  background-color: #02016f;
+  z-index: 1000;
+}
+
+main .section-homepage .layout .layout-grid .text-wrapper .button:hover::before,
+main .section-homepage .layout .layout-grid .text-wrapper .button:hover::after {
+  opacity: 1;
+}
+
+/* HOMEPAGE */
+/* MAIN */
 
 /* FOOTER */
 footer {
