@@ -213,7 +213,18 @@
     </div>
     <div class="section white bg-white w-100">
         <div class="container bg-transparent">
-            
+            <div class="centered-content bg-transparent">
+                <div class="heading-wrapper bg-transparent">
+                    <h2 class="bg-transparent">
+                        <span class="stroked-curved bg-transparent">Adopting</span> Sellsy
+                    </h2>
+                </div>
+                <div class="text-large bg-transparent">
+                    Means giving your sales, marketing and administrative teams the key tools to be effective!
+                </div>
+            </div>
+            <div class="benefits-wrapper">
+            </div>
         </div>
     </div>
     <div class="section white">
