@@ -586,6 +586,263 @@ main .section-homepage .layout .layout-grid .text-wrapper .button:hover::after {
   opacity: 1;
 }
 
+main .section {
+  padding: 96px 1.5em;
+  position: relative;
+}
+
+main .section .container {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  box-sizing: border-box;
+  max-width: 78rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  position: static;
+  color: #02016f;
+}
+
+main .section .container .centered-content {
+  text-align: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: transparent;
+}
+
+main .section .container .centered-content .heading-wrapper {
+  position: static;
+}
+
+main .section .container .centered-content .heading-wrapper h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  position: relative;
+  z-index: 0;
+}
+
+main .section .container .centered-content .heading-wrapper h2 .stroked-curved {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  box-sizing: border-box;
+  -webkit-text-fill-color: inherit;
+  background-image: url("https://cdn.prod.website-files.com/6058a411307dccf59c654f37/643e49c1cb8ecc2b5b1ec0cf_60c0d0a6aa151af1cc87961b_underline-1.svg");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 110px;
+  background-attachment: scroll;
+  background-clip: padding-box;
+  width: auto;
+  height: 1.5em;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  z-index: 3;
+}
+
+main .section .container .centered-content .text-large {
+  z-index: 1;
+  color: var(--colors--navy);
+  padding: 0 0 8px;
+  font-family: Patronweb, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.4em;
+  position: relative;
+}
+
+main .section .container .marketplace-section-wrapper {
+  background-color: #f6f7ff;
+  border-radius: 16px;
+  align-items: center;
+  margin-top: 96px;
+  padding: 64px;
+  display: flex;
+  position: relative;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-left {
+  text-align: center;
+  flex: 0 50%;
+  margin-right: 32px;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right {
+  flex: 0 50%;
+  margin-left: 32px;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  h2 {
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  position: relative;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .text-large {
+  z-index: 1;
+  color: #02016f;
+  padding: 0 0 8px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4em;
+  position: relative;
+  text-decoration: none;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button {
+  cursor: pointer;
+  z-index: 1;
+  background-color: #5c6fff;
+  color: white;
+  border-radius: 8px;
+  height: 56px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 16px 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  text-transform: capitalize;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button::before {
+  content: "";
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  background-color: #5c6fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  z-index: -6;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button:hover {
+  transform: translate(0.1rem, -0.1rem);
+  color: white;
+  background-color: #02016f;
+  z-index: 1000;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button:hover::before,
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button:hover::after {
+  opacity: 1;
+}
+
+main .section .container .bloc-badges-avis {
+  background-color: #ecedf8;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 80px;
+}
+
+main .section .container .bloc-badges-avis .recommanded-text {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.44em;
+  background: transparent;
+  color: #02016f;
+  font-size: 18px;
+}
+
+main .section .container .bloc-badges-avis .div-badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+main .section .container .bloc-badges-avis a {
+  font-weight: 500;
+  text-decoration: none;
+  max-width: 100%;
+  display: inline-block;
+}
+
+main .section .container .bloc-badges-avis a img {
+  vertical-align: middle;
+  max-width: 100%;
+  object-fit: fill;
+  display: inline-block;
+  height: 60px;
+  margin: 24px;
+  padding: 0;
+}
+
 /* HOMEPAGE */
 /* MAIN */
 
