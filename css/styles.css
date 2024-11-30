@@ -663,6 +663,142 @@ main .section .container .centered-content .text-large {
   position: relative;
 }
 
+main .section .container .marketplace-section-wrapper {
+  background-color: #f6f7ff;
+  border-radius: 16px;
+  align-items: center;
+  margin-top: 96px;
+  padding: 64px;
+  display: flex;
+  position: relative;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-left {
+  text-align: center;
+  flex: 0 50%;
+  margin-right: 32px;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right {
+  flex: 0 50%;
+  margin-left: 32px;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  h2 {
+  z-index: 1;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2em;
+  position: relative;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .text-large {
+  z-index: 1;
+  color: #02016f;
+  padding: 0 0 8px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4em;
+  position: relative;
+  text-decoration: none;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button {
+  cursor: pointer;
+  z-index: 1;
+  background-color: #5c6fff;
+  color: white;
+  border-radius: 8px;
+  height: 56px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 16px 24px;
+  font-family: Patronweb, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+  text-decoration: none;
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  text-transform: capitalize;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button::before {
+  content: "";
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.2rem;
+  background-color: #5c6fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+  z-index: -6;
+  opacity: 0;
+  transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button:hover {
+  transform: translate(0.1rem, -0.1rem);
+  color: white;
+  background-color: #02016f;
+  z-index: 1000;
+}
+
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button:hover::before,
+main
+  .section
+  .container
+  .marketplace-section-wrapper
+  .marketplace-section-right
+  .button:hover::after {
+  opacity: 1;
+}
+
 /* HOMEPAGE */
 /* MAIN */
 

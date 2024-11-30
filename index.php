@@ -227,7 +227,25 @@
             </div>
         </div>
     </div>
-    <div class="section white">
+    <div class="section white bg-white w-100">
+        <div class="container">
+            <div class="centered-content"></div>
+            <div class="container"></div>
+            <div class="marketplace-section-wrapper">
+                <div class="marketplace-section-left">
+                    <div class="lottie-marketplace">
+                        <img src="./images/svgexport-9.svg" alt="img" srcset="">
+                    </div>
+                </div>
+                <div class="marketplace-section-right">
+                    <h2>Connect Sellsy to your favorite applications<br></h2>
+                    <div class="text-large">
+                        Get the most out of your tools by integrating them in just few clicks, and find the top digital partners handpicked by Sellsy.
+                    </div>
+                    <a href="/marketplace" target="_blank" class="button w-button">Discover our marketplace</a>
+                </div>
+            </div>
+        </div>
     </div>
 </main>
 <?php include "includes/footer.php" ?>
