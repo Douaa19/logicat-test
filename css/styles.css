@@ -799,6 +799,50 @@ main
   opacity: 1;
 }
 
+main .section .container .bloc-badges-avis {
+  background-color: #ecedf8;
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 80px;
+}
+
+main .section .container .bloc-badges-avis .recommanded-text {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.44em;
+  background: transparent;
+  color: #02016f;
+  font-size: 18px;
+}
+
+main .section .container .bloc-badges-avis .div-badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+main .section .container .bloc-badges-avis a {
+  font-weight: 500;
+  text-decoration: none;
+  max-width: 100%;
+  display: inline-block;
+}
+
+main .section .container .bloc-badges-avis a img {
+  vertical-align: middle;
+  max-width: 100%;
+  object-fit: fill;
+  display: inline-block;
+  height: 60px;
+  margin: 24px;
+  padding: 0;
+}
+
 /* HOMEPAGE */
 /* MAIN */
 

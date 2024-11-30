@@ -247,5 +247,26 @@
             </div>
         </div>
     </div>
+    <div class="section">
+        <div class="container">
+            <div class="bloc-badges-avis">
+                <div class="recommanded-text">Recommended on</div>
+                <div class="div-badges bg-transparent">
+                    <a rel="noopener noreferrer" href="https://www.softwareadvice.com/crm/sellsy-profile/" target="_blank" class="w-inline-block bg-transparent">
+                        <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/628755e486cf3de7ea4fa4ec_badge-softwareadvice-blue.webp" loading="lazy" height="60" alt="Sellsy est noté 4,3 sur Software Advice" class="badges-avis bg-transparent">
+                    </a>
+                    <a rel="noopener noreferrer" href="https://www.getapp.com/operations-management-software/a/sellsy/" target="_blank" class="w-inline-block bg-transparent">
+                        <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/628755e4dc56680862819b6c_badge-getapp-blue.webp" loading="lazy" height="60" id="w-node-d9524d53-4c99-adba-eefb-0a869ed8b7c9-4b021557" alt="Sellsy est noté 4,3 sur GetApp" class="badges-avis bg-transparent">
+                    </a>
+                    <a rel="noopener noreferrer" href="https://www.capterra.com/p/133104/Sellsy/" target="_blank" class="w-inline-block bg-transparent">
+                        <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/628755e440dc7008c0e4436c_badge-capterra-blue.webp" loading="lazy" height="60" alt="Sellsy est noté 4,3 sur Capterra" class="badges-avis bg-transparent">
+                    </a>
+                    <a rel="noopener noreferrer" href="https://www.appvizer.fr/relation-client/customer-relationship-management-crm/sellsy" target="_blank" class="w-inline-block bg-transparent">
+                        <img src="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/628755e4087ede964492090c_badge-appvizer-blue.webp" loading="lazy" height="90" sizes="(max-width: 479px) 34vw, 47.015625px" alt="Sellsy a le badge Leader CRM sur Appvizer" srcset="https://cdn.prod.website-files.com/6058a411307dccf59c654f37/628755e4087ede964492090c_badge-appvizer-blue-p-500.webp 500w, https://cdn.prod.website-files.com/6058a411307dccf59c654f37/628755e4087ede964492090c_badge-appvizer-blue.webp 688w" class="badges-avis bg-transparent">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <?php include "includes/footer.php" ?>
