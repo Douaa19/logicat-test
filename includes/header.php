@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="hero-img bg-transparent d-flex justify-content-center align-items-center mx-5 w-100">
-                <img src="./images/img.png" alt="hero" class="" width="85%">
+                <img src="./images/svgexport-2.svg" alt="hero" class="" width="85%">
             </div>
         </div>
         <div class="clients">
