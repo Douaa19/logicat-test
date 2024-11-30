@@ -3,4 +3,4 @@
 <main class="container">
     
 </main>
-<!-- <?php include "includes/footer.php" ?> -->
+<?php include "includes/footer.php" ?>
