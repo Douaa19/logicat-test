@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer animate-on-scroll">
     <div class="container bg-transparent">
         <a href="/">
             <img src="./images/sellsy-white-logo.svg" class="bg-transparent logo-footer" loading="lazy" alt="Logo Sellsy">

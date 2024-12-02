@@ -8,4 +8,22 @@ document.addEventListener("DOMContentLoaded", function () {
       navbar.classList.remove("scrolled");
     }
   });
+
+  const handleScrollAnimation = () => {
+    const elementsToAnimate = document.querySelectorAll(".animate-on-scroll");
+
+    elementsToAnimate.forEach((element) => {
+      const rect = element.getBoundingClientRect();
+          const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+          if (isVisible) {
+            element.classList.add("animate");
+          } else {
+            element.classList.remove("animate");
+          }
+    });
+  };
+
+  window.addEventListener("scroll", handleScrollAnimation);
+  handleScrollAnimation();
 });

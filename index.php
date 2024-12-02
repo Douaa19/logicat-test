@@ -135,7 +135,7 @@
                         // image first
                         echo '
                             <div class="layout-grid">
-                                <img src="'. $card["img"] . '" alt="Interface de Sellsy Marketing" class="illustration" id="illustration">
+                                <img src="'. $card["img"] . '" alt="Interface de Sellsy Marketing" class="illustration animate-on-scroll" id="illustration">
                                 <div class="text-wrapper">
                                     <div class="homepage-product-name">
                                         <div class="lottie-picto-produit">
@@ -201,7 +201,7 @@
                                     </a>
                                 </div>
                                 <div class="reverse">
-                                    <img src="'. $card["img"] . '" alt="Interface de Sellsy Marketing" class="illustration reverse" id="illustration">
+                                    <img src="'. $card["img"] . '" alt="Interface de Sellsy Marketing" class="illustration reverse animate-on-scroll" id="illustration">
                                 </div>
                             </div>
                             ';
@@ -211,7 +211,7 @@
         </div>
     </div>
     </div>
-    <div class="section white bg-white w-100">
+    <div class="section animate-on-scroll white bg-white w-100">
         <div class="container bg-transparent">
             <div class="centered-content bg-transparent">
                 <div class="heading-wrapper bg-transparent">
@@ -223,12 +223,10 @@
                     Means giving your sales, marketing and administrative teams the key tools to be effective!
                 </div>
             </div>
-            <div class="benefits-wrapper">
-            </div>
         </div>
     </div>
-    <div class="section white bg-white w-100">
-        <div class="container">
+    <div class="section animate-on-scroll white bg-white w-100">
+        <div class="container bg-transparent">
             <div class="centered-content"></div>
             <div class="container"></div>
             <div class="marketplace-section-wrapper">
@@ -247,7 +245,7 @@
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section animate-on-scroll">
         <div class="container">
             <div class="bloc-badges-avis">
                 <div class="recommanded-text">Recommended on</div>
