@@ -1,16 +1,3 @@
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.animated-svg {
-  animation: fadeIn 2s ease-in-out;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -103,6 +90,17 @@ section .header button:hover {
 section .header button:hover::before,
 section .header button:hover::after {
   opacity: 1;
+}
+
+.animation-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animation-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 section {
@@ -261,6 +259,10 @@ section .clients {
   width: 100%;
 }
 
+section .clients.animation {
+  transform: translateY(0);
+}
+
 section .clients p {
   color: #02016f;
   margin-top: 8px;
@@ -361,6 +363,11 @@ main .section-homepage .layout .layout-grid #illustration {
   transform-style: preserve-3d;
 }
 
+main .section-homepage .layout .layout-grid .illustration.animate {
+  transform: scale(1.05);
+  transition: tranform 0.6s ease, opacity 0.6 ease;
+}
+
 main .section-homepage .layout .layout-grid .reverse {
   text-align: end;
 }
@@ -368,6 +375,8 @@ main .section-homepage .layout .layout-grid .reverse {
 main .section-homepage .layout .text-wrapper {
   color: #02016f;
 }
+
+
 
 main
   .section-homepage
@@ -851,6 +860,8 @@ footer {
   background-color: #010151;
   padding: 64px 0;
 }
+
+
 
 footer .container {
   max-width: 78rem;

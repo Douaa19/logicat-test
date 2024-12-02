@@ -41,7 +41,7 @@
                 <img src="./images/svgexport-2.svg" alt="hero" class="" width="85%">
             </div>
         </div>
-        <div class="clients">
+        <div class="clients animate-on-scroll">
             <div class="text">
                 <p>More than 48,000 users in over 19,000 companies run on Sellsy!</p>
             </div>
